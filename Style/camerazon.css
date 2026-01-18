@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style:normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* nav Related Section */
+.head-influencer{
+    max-width: 1200px;
+    margin: 90px auto;
+}
+
+.nav-title{
+    max-width: 245px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-li{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.nav-li a{
+    text-decoration: none;
+}
+
+.nav-li a:hover{
+    background-color: rgba(250, 235, 215, 0.377);
+}
+
+
+
+/* banner Relative Section */
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 135px;
+}
+
+
+.banner-title{
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 70px;
+
+}
+
+.banner-description{
+    width: 500px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+
+.btn-primary{
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+.banner{ 
+    background-image: url('../images/Circle\ design.svg');    
+    background-repeat: no-repeat;
+    background-position: top right, right;
+    
+}
+
+.border-hr{
+    margin-top: 120px;
+}
+
+.banner-logo{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    gap: 70px;
+    padding: 20px;
+    
+}
+
+.banner-logo img{
+    filter: drop-shadow(1.5px 2px 2px #041E42);
+}
+
+
+/* Card Relative Section */
+
+.card-title{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.card-description{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.card>img{
+   width: 100%;
+   border-radius: 8px;
+}
+
+.card{
+    padding: 20px;
+    width: 329px;
+    height: 476px;
+    border-radius: 8px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 5px 5px 5px #041e420e;
+    max-width: 330px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  border-radius: 5px;
+  transform: translateY(0); 
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Deeper shadow */
+  transform: translateY(-5px); /* Moves the card up slightly */
+}
+
+.card-h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.card-price{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.card>p{
+    max-width: 196px;
+    font-size: 16px;
+    letter-spacing: 1.5%;
+    line-height: 143%;
+    color: rgba(120, 120, 133, 1);
+}
+
+.btn{
+    font-weight: bold;
+    padding: 10px 24px;
+    color: white;
+    background-color: coral;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(18, 19, 19, 0.281);
+}
+
+
+.btn-see-more{
+    position: relative;
+    bottom: 20px;
+    right: -1050px;
+}
+
+.btn-see{
+    background-color: white;
+    border: none;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #E02C6D;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+
+
+/* Featured Products Relative Section */
+
+.featured{
+    margin-top: 100px;
+}
+
+.featured-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+}
+
+
+
+.featured-title{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.featured-header>p{
+    max-width: 500px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+
+    .btn-featured{
+    background-color: #E02C6D;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 24px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+
+/* Footer Relative Section */
+
+footer{
+    border: #6C6C6C;
+    background-color:#041E42;
+}
+
+.footer-head{
+        margin-top: 100px;
+        text-align: center;
+}
+
+.footer-content{
+    color: white;
+    padding: 50px
+}
+
+.footer-title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.footer-content>p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
